@@ -31,3 +31,13 @@ variable "frontend_tags" {
         component = "frontend"
     }
 }
+
+variable "ansible_tags" {
+    default = {
+        Component = "ansible"
+    }
+}
+
+variable "zone_name" {
+    default = "daws1s.online"
+}
